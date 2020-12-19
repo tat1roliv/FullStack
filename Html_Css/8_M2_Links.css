@@ -1,0 +1,12 @@
+.link8 {
+font: bold 12pt arial;
+color: green;
+}
+/*Link Hover - muda quando o mouse passa acima*/
+.link8:hover {
+    color: red;
+}
+/*Link Hover - muda quando o mouse passa acima*/
+.link8:visited {
+    color:blue;
+}
