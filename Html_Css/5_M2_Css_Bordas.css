@@ -1,0 +1,44 @@
+/*BORDAS no Css*/
+/*border: largura tipo de borda cor */
+/*solid <- linha continua; dotted <- linha pontilhada; dashed <- linha tracejada; double <- linha dupla;groove <- border; noboard <- sem borda*/
+#tituloprincipal {
+    border: 5px solid blue;
+}
+/*border-bottom*/
+h2{
+    border-bottom: 5px solid blueviolet;
+}
+/*QUADRADO-border-width-height*/
+#quadrado{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+}
+/*CIRCULO-border-radius:0.5x*/
+#circulo{
+    background-color: rgb(230, 152, 50);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+/*ARREDONDADO-border-radius:0.1x*/
+#arredondado{
+    background-color: rgb(26, 142, 236);
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+/*BORDA COLOR-border-radius:0.5x*/
+#bordacolor{
+    background-color: rgb(203, 230, 50);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px solid black;
+
+}
+img{
+    border: 1px solid red;
+    border-radius: 10px;
+    overflow: hidden;
+}

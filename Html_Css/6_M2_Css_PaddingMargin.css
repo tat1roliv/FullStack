@@ -1,0 +1,25 @@
+/*PADDING & MARGIN*/
+/*Elemento <- conteudo, borda, padding e margin*/
+/*PADDING - Espaçamento Interno*/
+#texto1{
+    border: 2px solid greenyellow;
+    padding: 10px;
+}
+/*PADDING - Espaçamento para cada lado*/
+/* == padding: 50px 20px 5px 0px;*/
+#padding4lados{
+    border: 2px solid rgb(255, 47, 245);
+    padding-left: 0px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+/*MARGIN - Espaçamento Externo*/
+#texto2{
+    border: 2px solid rgb(255, 113, 47);
+    margin: 10px;
+}
+/*BODY BORDER - O*/
+body{
+    margin: 0px;
+}

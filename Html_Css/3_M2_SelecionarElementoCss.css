@@ -1,0 +1,45 @@
+/*
+*{}
+Confirgurações gerais da página
+*/
+* {
+background-color: rgb(255, 255, 255);
+font: times;
+color: black;
+}
+/*
+Aplica a todos os headings <h1> os atributos indicados
+*/
+h1{
+    color: red;
+    font: 18pt;
+}
+/*
+#id{}
+'Id' selector
+*/
+#tituloprincipal{
+    color:blue
+}
+/*
+.class{}
+Class selector 
+*/
+.texto{
+    font-style: italic;
+}
+/*
+#id,.class{}
+Definindo atributos para dois itens do documento de forma simultanea 
+*/
+#itema, .texto {
+    color: rgb(250, 150, 0);
+}
+/*
+element1 element2{}
+!= element1, element2{}
+Item dentro de outro item 
+*/
+ol li{
+    color: blueviolet;
+}

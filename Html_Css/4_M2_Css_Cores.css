@@ -1,0 +1,18 @@
+/*Cores Css*/
+/*Definindo cores: Por nome da cor */
+#tituloprincipal {
+    background-color: red;
+}
+/*Definindo cores: Por RGB */
+.texto {
+    background-color: rgb(226, 171, 171);
+    color: rgb(0,0,0);
+}
+/*Definindo cores: Por RGB com transparencia*/
+h2 {
+    background-color: rgba(212, 201, 201, 0.356);
+}
+/*Definindo cores: Por Hexadecimal*/
+ol{
+    color: #ff0000; ;
+}
