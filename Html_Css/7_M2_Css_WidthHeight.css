@@ -1,11 +1,24 @@
 body{
     margin:0px;
 }
-/*METODOS DE DEFINIR ALTURA E LARGURA <- PX || %*/
+/*METODOS DE DEFINIR ALTURA E LARGURA <- px || % || auto*/
 #ex1{
     color: white;
     background-color: black;
     width: 100%;
     height: 100px;
+}
+/*imagens <- ALTURA E LARGURA <- px == ajuste por pixel || 100% == ajuste pelo espaço disponivel, com esta no body, pela janela do navegador|| auto == ajuste pelo tamanho da imagem* || cm == por unidade de medida*/
+/*MAX-WIDTH e MIN-WIDTH-tamanho maximo/minimo da imagem*/
+img{
+    width: auto;
+    max-width: 500px;
+    min-width: 50px;
+    max-height: 300px;
+    min-height: 100px;
     
+}
+/*INHERIT - aplica o mesmo do atenrior*/
+#ex2{
+    width: inherit;
 }
