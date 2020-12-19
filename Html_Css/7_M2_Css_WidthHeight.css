@@ -1,4 +1,13 @@
+/*'*' para o documento todo*/
+* {
+    /*box-sizing: content-box;*/
+    /* ajusta a box pelo conteudo, sem borda e padding*/
+    box-sizing: border-box;
+    /* ajusta a box pela borda definida, incluindo a borda e o padding*/
+}
+
 body{
+    /*PADRAO*/
     margin:0px;
 }
 /*METODOS DE DEFINIR ALTURA E LARGURA <- px || % || auto*/
@@ -18,7 +27,18 @@ img{
     min-height: 100px;
     
 }
-/*INHERIT - aplica o mesmo do atenrior*/
+/*INHERIT - aplica o mesmo do anterior*/
 #ex2{
     width: inherit;
+}
+/*DICAS*/
+/* '*' para atribuir propriedades ao documento todo*/
+
+#quadrado{
+    background-color: brown;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
 }
