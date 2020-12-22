@@ -2,6 +2,12 @@
     background: white;
     box-sizing: border-box;
 }
+h1{
+    font: 18pt;
+    }
+h2{
+    font: bold 14pt gray;
+}
 body{
     margin: 50px;
 }
