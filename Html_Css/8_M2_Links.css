@@ -6,7 +6,7 @@ color: green;
 .link8:hover {
     color: red;
 }
-/*Link Hover - muda quando o mouse passa acima*/
-.link8:visited {
+/*Link Hover - muda quando ja foi visitada*/
+.link7:visited {
     color:blue;
 }
