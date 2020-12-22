@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+ul{
+    /*Tipo de marcação(ícone)na lista UL*/
+    /*disc (esfera) square(quadrado) circle(esfera vazada) none(nenhum)*/
+    list-style-type:square;
+}
