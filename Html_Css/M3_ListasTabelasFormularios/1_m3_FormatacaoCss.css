@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+    font-size: 14pt;
+}
+/*FORMATAÇÃO NO CSS*/
+p{
+    color:blue;
+    font-size: 12pt;
+    font-weight: bold;
+    /*SEGUNDA OPÇÃO DE FONTE CASO A PRIMEIRA NAO ESTEJA INSTALADA*/
+    font-family: courier, arial;
+    text-align: justify;
+           
+}
+/*retirar o underline do link, fazendo com que apareça apenas com o mouse*/
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
