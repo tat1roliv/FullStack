@@ -5,20 +5,38 @@ body{
     margin: 50px;
     font-size: 14pt;
 }
+h1{
+/*uppercase-maiusculas*/
+    text-transform: uppercase;
+    font-family: courier;
+/*espaçamento entre palavras*/
+word-spacing: 10px;
+}
+h2{
+/*uppercase-minusculas*/
+    text-transform: lowercase;
+    font-family: courier;
+/*espaçamento entre letras*/
+    letter-spacing: 1px;
+}
 /*FORMATAÇÃO NO CSS*/
 p{
-    color:blue;
+    color:black;
     font-size: 12pt;
     font-weight: bold;
     /*SEGUNDA OPÇÃO DE FONTE CASO A PRIMEIRA NAO ESTEJA INSTALADA*/
     font-family: courier, arial;
     text-align: justify;
+    /*Definindo altura da linha*/
+    line-height: 25px;
+    /*text-shadow(sombra)*/
+    /*(distancia a direita) (distancia para baixo) (esfumaçamento) (color)*/
+    text-shadow:0px 2px 3px blue ;
            
 }
 /*retirar o underline do link, fazendo com que apareça apenas com o mouse*/
 a{
     text-decoration: none;
-    
 }
 a:hover{
     text-decoration: underline;
