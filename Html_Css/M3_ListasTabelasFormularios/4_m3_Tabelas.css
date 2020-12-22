@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT'
+}
+body{
+    margin: 10px;
+}
+table{
+    /*largura da tabela*/
+    width: 600px;
+    /*borda externa*/
+    border: 1px solid yellow
+}
+/*linhas internas da tabela ->gerada por cada celula*/
+th, td{
+    border: 1px solid rgba(241, 227, 227, 0.87);
+    padding: 10px;
+    text-align: left;
+}
+/*altera cor do thead*/
+table thead{
+    background: rgb(158, 158, 158);
+}
+/*altera cor do tbody*/
+table tbody{
+  
+    background: rgb(233, 233, 211);
+}
+/*hover na linha do mouse*/
+tbody tr:hover{
+background-color: rgb(247, 212, 212);
+}
+/*alternando cores das linhas*/
+tbody tr:nth-child(even){
+    background: rgb(214, 200, 200);
+}
