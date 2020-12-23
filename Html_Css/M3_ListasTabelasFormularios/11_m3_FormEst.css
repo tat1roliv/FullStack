@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+label{
+    /*por padrao, vem no display: inline*/
+    display: block;
+    margin-top: 15px;
+}
+input[type=text], textarea{
+    width: 250px;
+    padding: 10px;
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid rgb(231, 148, 148);
+    outline: 0;
+    margin-top: 5px;
+}
+textarea{
+    height: 200px;
+    resize: none;
+}
+select{
+    width: 75px;
+}
+.termoslink{
+    color: black;
+    text-decoration: none;
+}
+.termoslink:hover{
+text-decoration:underline;
+}
+button{
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid gray;
+    background-color: rgba(219, 213, 215, 0.822);
+}
+button:hover{
+    background-color: crimson;
+}
