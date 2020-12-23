@@ -4,11 +4,14 @@
 body{
     margin: 20px;
     font-family: 'Courier New', Courier, monospace;
-
 }
 #ordenacao{
     box-sizing: 100px;
 }
 #mescolha{
         box-sizing: 100px;
+}
+textarea{
+    height: 200px;
+    width: 200px;
 }
