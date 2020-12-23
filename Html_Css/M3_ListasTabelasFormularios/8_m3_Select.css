@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#ordenacao{
+    box-sizing: 100px;
+}
+#mescolha{
+        box-sizing: 100px;
+}
