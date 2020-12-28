@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+margin: 0px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+.topo{
+    width: 800px;
+    height: 100px;
+    margin: auto;
+}
+.logo{
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color:#EEE;
+}
+.menu{
+    /*regulando largura por porcentagem*/
+    width: 50%;
+    height: 100px;
+    float: left;
+    background-color: #DDD;
+}
+.corpo{
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    background-color: #CCC;
+}
+.rodape{
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    background-color: #DDD;
+}
+@media only screen min-width: 500px and max-width: 800px{
+    .topo{
+        width: 500px;
+    }
+    .corpo{
+        width: 500px;
+    }
+    .rodape{
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .topo{
+        height: 200px;
+        width: 300px;
+    }
+    .logo{
+        height: 100%;
+    }
+    .menu{
+        height: 100%;
+    }
+    .corpo{
+        width: 300px;
+    }
+    .rodape{
+        width: 300px;
+    }
+}
