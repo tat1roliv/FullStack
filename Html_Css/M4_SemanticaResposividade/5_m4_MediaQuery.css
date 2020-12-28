@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+#teste{
+    width: 600px;
+    height: 300px;
+    background-color: aqua;
+}
+#teste1 {
+    width: 600px;
+    height: 300px;
+    background-color: blue;
+}
+/*RESPONSIVIDADE*/
+/*Alterar a tela quando width<00px*/
+@media only screen and (max-width:500px){
+    #teste {
+        background-color: red;
+        width: 200px;
+    }
+}
+/*RESPONSIVIDADE*/
+/*Alterar a tela quando orientação landscape*/
+@media only screen and (orientation:landscape){
+    #teste1 {
+        background-color:pink;
+        width: 200px;
+    }
+}
