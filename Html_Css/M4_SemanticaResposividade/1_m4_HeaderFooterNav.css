@@ -1,0 +1,17 @@
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    height: 50px;
+    background-color: rgb(158, 158, 212);
+    color: white;
+}
+footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+}
