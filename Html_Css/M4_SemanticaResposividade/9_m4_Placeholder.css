@@ -10,9 +10,10 @@ body{
 }
 form{
     background-color: #CCC;
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 175px;
     padding: 20px;
     border: 2px solid black;
     float: inline-end;
+    margin: auto;
 }
