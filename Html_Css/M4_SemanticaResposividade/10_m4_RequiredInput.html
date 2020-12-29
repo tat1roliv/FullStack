@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Required Input</title>
+    <link rel="stylesheet" href="10_m4_RequiredInput.css">
+</head>
+<body>
+    <form action="Login" method="POST">
+        Usuário:
+        <br>
+        <!--Required/Validacao-->
+        <input type="email" name="usuario" placeholder="Usuário" autofocus required> 
+        <br>
+        <br>
+        Senha:
+        <br>
+        <input type="password" name="senha" size="10" maxlength="6" required> <br> <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
