@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+#nested{
+    list-style-type: none;
+}
+.sub{
+    list-style-type: circle;
+    
+}
