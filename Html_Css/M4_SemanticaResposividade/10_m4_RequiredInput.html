@@ -11,12 +11,14 @@
         Usuário:
         <br>
         <!--Required/Validacao-->
-        <input type="email" name="usuario" placeholder="Usuário" autofocus required> 
+        <!--Autocomplete on-->
+        <input type="email" name="usuario" placeholder="Usuário" autofocus required autocomplete="on"> 
         <br>
         <br>
         Senha:
         <br>
-        <input type="password" name="senha" size="10" maxlength="6" required> <br> <br>
+        <!--Autocomplete off-->
+        <input type="password" name="senha" size="10" maxlength="6" required autocomplete="off"> <br> <br>
         <input type="submit" value="Enviar">
     </form>
 </body>
