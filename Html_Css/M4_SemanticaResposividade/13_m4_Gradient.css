@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+#teste{
+    width: 500px;
+    height: 200px;
+    background-color: blue;
+    background: linear-gradient(white, blue);
+}
+#teste2{
+    margin-top: 50px;
+    width: 500px;
+    height: 200px;
+    background-color: blue;
+    background: linear-gradient(-45deg, white,red);
+}
