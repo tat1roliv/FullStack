@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+#teste {
+    width: 150px;
+    height: 250px;
+    border: 1px solid black;
+    /*WORD WRAP*/
+    word-wrap: break-word;
+}
