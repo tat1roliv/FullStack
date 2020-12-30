@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+#teste{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    margin-top: 100px;
+    margin: auto;
+    /*box-shadow (-/esq/sombra/dir/+) (vertical) (blur) (color)*/
+    box-shadow: 10px 10px 7px #888888; 
+}
