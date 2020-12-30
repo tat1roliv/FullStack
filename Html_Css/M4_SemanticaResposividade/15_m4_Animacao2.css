@@ -1,0 +1,339 @@
+body
+{
+    margin: 0;
+}
+@keyframes move_cor1
+{
+    0%{top: 50px; left: 50px; height: 50px;}
+    25%{top: 50px; left: 50px; height: 100px;}
+    50%{top: 50px; left: 50px; height: 150px;}
+    75%{top: 50px; left: 50px; height: 200px;}
+    100%{top: 50px; left: 50px; height: 250px;}
+}
+@keyframes move_cor2
+{
+    0%{top: 250px; left: 50px; width: 50px; visibility: hidden;}
+    50%{top: 250px; left: 50px; width: 100px; visibility: visible;}
+    100%{top: 250px; left: 50px; width: 150px;}
+}
+@keyframes move_cor3
+{
+    0%{top: 50px; left: 250px; height: 50px; visibility: hidden;}
+    25%{top: 50px; left: 250px; height: 100px; visibility: visible;}
+    50%{top: 50px; left: 250px; height: 150px;}
+    75%{top: 50px; left: 250px; height: 200px;}
+    100%{top: 50px; left: 250px; height: 250px;}
+}
+@keyframes move_cor4
+{
+    0%{top: 250px; left: 250px; width: 50px; visibility: hidden;}
+    50%{top: 250px; left: 250px; width: 100px; visibility: visible;}
+    100%{top: 250px; left: 250px; width: 150px;}
+}
+@keyframes move_cor5
+{
+    0%{top: 250px; left: 350px; height: 50px; visibility: hidden;}
+    25%{top: 200px; left: 350px; height: 100px; visibility: visible;}
+    50%{top: 150px; left: 350px; height: 150px;}
+    75%{top: 100px; left: 350px; height: 200px;}
+    100%{top: 50px; left: 350px; height: 250px;}
+}
+@keyframes move_cor6
+{
+    0%{top: 50px; left: 550px; width: 50px; visibility: hidden;}
+    50%{top: 50px; left: 500px; width: 100px; visibility: visible;}
+    100%{top: 50px; left: 450px; width: 150px;}
+}
+@keyframes move_cor7
+{
+    0%{top: 50px; left: 450px; height: 50px; visibility: hidden;}
+    25%{top: 50px; left: 450px; height: 100px; visibility: visible;}
+    50%{top: 50px; left: 450px; height: 150px;}
+    75%{top: 50px; left: 450px; height: 200px;}
+    100%{top: 50px; left: 450px; height: 250px;}
+}
+@keyframes move_cor8
+{
+    0%{top: 250px; left: 450px; width: 50px; visibility: hidden;}
+    50%{top: 250px; left: 450px; width: 100px; visibility: visible;}
+    100%{top: 250px; left: 450px; width: 150px;}
+}
+@keyframes move_cor9
+{
+    0%{top: 250px; left: 650px; height: 50px; visibility: hidden;}
+    25%{top: 200px; left: 650px; height: 100px; visibility: visible;}
+    50%{top: 150px; left: 650px; height: 150px;}
+    75%{top: 100px; left: 650px; height: 200px;}
+    100%{top: 50px; left: 650px; height: 250px;}
+}
+@keyframes move_cor10
+{
+    0%{top: 50px; left: 650px; width: 50px; visibility: hidden;}
+    50%{top: 50px; left: 650px; width: 100px; visibility: visible;}
+    100%{top: 50px; left: 650px; width: 150px;}
+}
+@keyframes move_cor11
+{
+    0%{top: 50px; left: 750px; height: 50px; visibility: hidden;}
+    25%{top: 50px; left: 750px; height: 100px; visibility: visible;}
+    50%{top: 50px; left: 750px; height: 150px;}
+    75%{top: 50px; left: 750px; height: 200px;}
+    100%{top: 50px; left: 750px; height: 250px;}
+}
+@keyframes move_cor12
+{
+    0%{top: 150px; left: 650px; width: 50px; visibility: hidden;}
+    50%{top: 150px; left: 650px; width: 100px; visibility: visible;}
+    100%{top: 150px; left: 650px; width: 150px;}
+}
+@keyframes move_cor13
+{
+    0%{top: 250px; left: 850px; width: 50px; visibility: hidden;}
+    50%{top: 250px; left: 850px; width: 100px; visibility: visible;}
+    100%{top: 250px; left: 850px; width: 150px;}
+}
+@keyframes move_cor14
+{
+    0%{top: 250px; left: 950px; height: 50px; visibility: hidden;}
+    50%{top: 200px; left: 950px; height: 100px;  visibility: visible;}
+    100%{top: 150px; left: 950px; height: 150px;}
+}
+@keyframes move_cor15
+{
+    0%{top: 150px; left: 950px; width: 50px; visibility: hidden;}
+    50%{top: 150px; left: 900px; width: 100px; visibility: visible;}
+    100%{top: 150px; left: 850px; width: 150px;}
+}
+@keyframes move_cor16
+{
+    0%{top: 150px; left: 850px; height: 50px; visibility: hidden;}
+    50%{top: 100px; left: 850px; height: 100px;  visibility: visible;}
+    100%{top: 50px; left: 850px; height: 150px;}
+}
+@keyframes move_cor17
+{
+    0%{top: 50px; left: 850px; width: 50px; visibility: hidden;}
+    50%{top: 50px; left: 850px; width: 100px; visibility: visible;}
+    100%{top: 50px; left: 850px; width: 150px;}
+}
+.animacao1
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao2
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor2;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao3
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor3;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao4
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor4;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 3.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao5
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor5;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao6
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor6;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao7
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor7;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 5.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao8
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor8;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 6.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao9
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor9;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao10
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor10;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao11
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor11;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 8.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao12
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor12;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 9.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao13
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor13;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao14
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor14;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 10.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao15
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor15;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 11s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao16
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor16;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 11.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animacao17
+{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    animation-name: move_cor17;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 12s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
