@@ -1,0 +1,24 @@
+
+
+body {
+    padding: 20px; 
+    text-align:center;
+  }
+  
+  .container {
+    width: 100px;
+    height: 100px;
+    background-color: #ffa653;
+    animation: spin 10s linear infinite;
+  }
+  
+  @keyframes spin {
+   0% {
+    transform: rotateZ(0deg);
+   }
+   100% {
+    transform: rotateZ(360deg);
+   }
+  }
+  
+  
