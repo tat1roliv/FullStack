@@ -10,3 +10,9 @@ body {
     /*box-shadow (-/esq/sombra/dir/+) (vertical) (blur) (color)*/
     box-shadow: 10px 10px 7px #888888; 
 }
+
+p{
+   font-size: 20pt;
+   text-shadow: 5px 5px 4px #888888; 
+   text-align: center;
+}
