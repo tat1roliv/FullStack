@@ -8,14 +8,17 @@ body{
     background-color: black;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-wrap: nowrap;*/
     margin: 10px;
 }
 .container div{
-    flex: 1;
+    width: 200px;
     background-color: white;
     color: black;
     font-size: 18px;
     margin: 10px;
+    padding: 10px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
