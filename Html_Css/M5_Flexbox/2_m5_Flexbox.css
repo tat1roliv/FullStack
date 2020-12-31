@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.container div{
+    flex: 1;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
