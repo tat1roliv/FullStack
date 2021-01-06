@@ -67,3 +67,10 @@ header .subtitle_topo{
 .footer_copy{
     background-color: rgb(197, 197, 197);
 }
+.linkwiki a{
+    text-decoration: none;
+}
+.linkwiki a:hover{
+    color: crimson;
+    font-style: bold;
+}
