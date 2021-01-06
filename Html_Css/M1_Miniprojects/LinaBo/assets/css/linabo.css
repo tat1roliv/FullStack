@@ -51,3 +51,19 @@ header .subtitle_topo{
     margin-left: 200px;
     margin-right: 200px;
 }
+/*footer_copy*/
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    color:#2c2c2c;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+.footer_copy a{
+    color:#2c2c2c;
+    text-decoration: none;
+}
+.footer_copy{
+    background-color: rgb(197, 197, 197);
+}
