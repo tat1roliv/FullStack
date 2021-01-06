@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ;
+    font-family: 'Courier New', Courier, monospace ;
 }
 /*Header_Topo*/
 header{
@@ -40,11 +40,14 @@ header .subtitle_topo{
     background-color: white;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    margin: 20px;
-
+    padding: 10px;
+    margin: 10px;
 }
 /*img*/
 #imagem{
     border: 20px solid black;
+}
+.resume{
+    margin-left: 200px;
+    margin-right: 200px;
 }
