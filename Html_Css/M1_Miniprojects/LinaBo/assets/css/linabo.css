@@ -14,7 +14,7 @@ header{
 .container{
     display: flex;
     flex-direction: column;
-    width: auto;   
+    width: 100%;   
     justify-content: center;
     align-items: center;
 }
@@ -22,7 +22,6 @@ header .title_topo{
     color: black;
     font-weight: bold;
     font-size: 40px;
-    padding: 0;
     margin-top: 30px;
 }
 header .subtitle_topo{
@@ -30,7 +29,22 @@ header .subtitle_topo{
     font-weight: 300;
     font-style: italic;
     font-size: 16px;
-    padding: 0;
     margin-bottom: 20px;
     margin-top: 0;
+}
+/*content*/
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+/*img*/
+#imagem{
+    border: 20px solid black;
 }
