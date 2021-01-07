@@ -33,9 +33,11 @@ body{
 }
 nav ul,
 nav li{
-    list-style: none; 
+    list-style: none;
+    margin: 0;
+    padding: 0; 
 }
-.menu ul li a{
+nav a{
     text-decoration: none; 
     color: white;
     font-weight: bold;
@@ -43,6 +45,11 @@ nav li{
     font-size: 15px;   
     padding: 10px;
     margin: 10px;
+}
+nav .active a,
+nav a:hover{
+    background-color: white;
+    color:#bf0021;
 }
 .half1{
     background-color: #bf0021;
