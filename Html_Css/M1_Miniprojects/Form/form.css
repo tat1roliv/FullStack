@@ -28,7 +28,8 @@ main{
 	display: flex;
 	justify-content: center;
 	font-weight: bold;
-	font-style: italic;
+    font-style: italic;
+    color: black;
 }
 .container{
 	background-color: #ccc;
@@ -48,11 +49,36 @@ main{
 .forms{
     display: flex;
     flex-direction: row;
-    background-color: blueviolet;
+    margin-top: 50px;
+}
+.forms input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #2c2c2c;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+#country{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #2c2c2c;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    color: black;
 }
 /*form1*/
-
+.form1{
+    margin: 50px;
+    font-size: 18px;
+}
 /*form2*/
+.form2{
+    margin: 50px;
+    font-size: 18px;
+}
+
 
 /*footer*/
 /*footer_copy*/
