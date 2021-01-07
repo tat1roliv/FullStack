@@ -1,3 +1,4 @@
+/*general*/
 *{
     box-sizing: border-box;
 }
@@ -8,12 +9,33 @@ body{
     background-image: linear-gradient(-50deg, #93999532,#3fcaf5);
 	min-height:100vh;
 }
+/*header*/
 header{
-    width: 100vh;
+    width: 100vw;
+    height: 150px;
+    display: flex; 
     justify-content: center;
     align-items: center;
 }
-.pagetitle{
+.pagetitle h1{
     color: white;
-    
+    font-size: 40px; 
+    border-bottom: 3px solid white;  
+}    
+/*sections*/
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
 }
+/*logo*/
+
+/*forms*/
+.forms{
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+}
+/*form1*/
+
+/*form2*/
