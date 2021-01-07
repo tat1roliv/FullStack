@@ -24,8 +24,8 @@ body{
 }
 .logo{
     background-color:#bf0021;
-    height: 80px;
-    width: 100px;
+    height: 100px;
+    width: 150px;
 }
 .menu nav ul{
     display: flex;
