@@ -32,6 +32,15 @@ header{
     text-decoration: underline;
 }
 /*section*/
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex: 1;
+}
 .section-content{
     display:flex;
     flex-direction: column;
