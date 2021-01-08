@@ -45,3 +45,17 @@ section {
     display:flex;
     flex-direction: column;
 }
+/*buttons*/
+.buttons button{
+    background-color: #f3f3f3;
+    font-family: 'roboto',sans-serif ;
+    margin: 30px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+}
+.buttons button:hover{
+    border: 1px solid #c7c4c4;
+    border-radius: 10px;
+}
+
