@@ -12,18 +12,27 @@ body{
     display:flex;
     flex-direction: column;
 */
+/*header*/
 header{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 .header-content{
+    margin: 3px;
     padding: 10px;
-    margin: 10px;
+    padding-top: 20px;
 }
 .header-content a{
     text-decoration: none;
     color: #2c2c2c;
-    font-size: 12px;
-    
+    font-size: 13px;
+}
+.header-content a:hover{
+    text-decoration: underline;
+}
+/*section*/
+.section-content{
+    display:flex;
+    flex-direction: column;
 }
