@@ -82,14 +82,19 @@ input {
 /*buttons*/
 .buttons button{
     background-color: #f3f3f3;
+    border: 1px solid #f3f3f3;
     font-family: 'roboto',sans-serif ;
     margin: 30px;
-    padding: 10px;
+    padding: 10px 16px 10px 16px;
     font-size: 15px;
-    border: none;
+    border-radius: 10px;
+    color: #404246;
+    font-weight: 100;
+    cursor: pointer;
 }
 .buttons button:hover{
-    border: 1px solid #c7c4c4;
+    border: 1px solid #dadada;
     border-radius: 10px;
+    box-shadow: 0px 1px 0px #CCC;
+    color: #000;
 }
-
