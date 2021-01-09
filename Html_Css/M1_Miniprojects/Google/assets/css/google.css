@@ -32,7 +32,6 @@ header{
     text-decoration: underline;
 }
 /*section*/
-
 section {
     display: flex;
     justify-content: center;
@@ -46,6 +45,40 @@ section {
     display:flex;
     flex-direction: column;
 }
+.logo{
+    margin-bottom: 30px;
+}
+/*search*/
+.access {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.access img {
+    margin-right:10px;
+    cursor:pointer;
+}
+.search {
+    border: 1px solid #dfe1e5;
+    border-radius: 50px;
+    display: flex;
+    width: 580px;
+    height: 45px;
+    line-height: 40px;
+    background-color: #fff;
+    font-size: 15px;
+}
+/*input*/
+input {
+    border: none;
+    margin-left: 20px;
+    outline: 0;
+    border-radius: 50px;
+    font-size: 15px;
+    width: 450px;
+}
+
 /*buttons*/
 .buttons button{
     background-color: #f3f3f3;
