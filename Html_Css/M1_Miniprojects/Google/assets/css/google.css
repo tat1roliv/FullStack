@@ -67,6 +67,12 @@ section {
     background-color: #fff;
     font-size: 15px;
 }
+.search:hover{
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+    border-radius: 50px;
+    transition:all 0.4s ease;
+    
+}
 /*input*/
 input {
     border: none;
