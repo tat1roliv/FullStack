@@ -5,9 +5,25 @@ body{
     margin: 0;
     padding: 0;
 }
+/*1*/
 /*seleçãopor atributo*/
 /*[atributo]*/
-
 [required]{
     background-color: red;
+}
+input[type=password]{
+    background-color: cadetblue;
+}
+input{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #2c2c2c;
+}
+/*2*/
+a[href*="futebol"]{
+    background-color: aqua;
+}
+a[href*="mercado"]{
+    background-color: grey;
 }
