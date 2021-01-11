@@ -6,7 +6,7 @@ body{
     padding: 0;
 }
 /*1*/
-/*seleçãopor atributo*/
+/*seleção por atributo*/
 /*[atributo]*/
 [required]{
     background-color: red;
@@ -21,14 +21,28 @@ input{
     border: 1px solid #2c2c2c;
 }
 /*2*/
-/*a[href*="busca em qualquer parte do atributo"*/
+/*seleção por posição do atributo*/
+/*a[href *="busca em qualquer parte do atributo"*/
 a[href*="futebol"]{
     background-color: aqua;
 }
 a[href*="mercado"]{
     background-color: grey;
 }
-/*a[href^="busca na parte inicial do atributo"*/
+/*a[href ^="busca na parte inicial do atributo"*/
 a[href^="https://www.google"]{
     color: greenyellow;
+}
+/*a[href $="busca na parte final do atributo"*/
+a[href$="shtml"]{
+    color: rgb(255, 47, 193);
+}
+/*3*/
+/*seleção empty*/
+p{
+    padding: 20px;
+    height: 30px;
+}
+p:empty{
+    background-color: red;
 }
