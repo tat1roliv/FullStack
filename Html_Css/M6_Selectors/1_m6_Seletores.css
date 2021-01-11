@@ -5,6 +5,12 @@ body{
     margin: 0;
     padding: 0;
 }
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
 /*1*/
 /*seleção por atributo*/
 /*[atributo]*/
@@ -40,8 +46,8 @@ a[href$="shtml"]{
 /*3*/
 /*seleção empty*/
 p{
-    padding: 20px;
-    height: 30px;
+    margin: 5px;
+    height: 20px;
 }
 p:empty{
     background-color: red;
