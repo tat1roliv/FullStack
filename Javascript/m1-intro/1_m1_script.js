@@ -49,6 +49,17 @@ if (hora1 == 12 || hora1 == 18){
     console.log("Rush hour")
 };
 
+//ecma script
+//variaveis 2
+var name1 = "boni1"
+console.log(window.nome1);
+//acesso ao dado em qualquer área do sistema(geral)
+let name2 = "boni2"
+console.log(window.nome2);
+//disponivel apenas naquela area especifica do codigo (na caixinha de codigo especifica)
+const name3 = "boni3"
+//var valor constante
+
 
 
 
