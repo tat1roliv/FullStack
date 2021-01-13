@@ -35,13 +35,19 @@ var sobrenome1 = "Def"
 console.log(nome1 + sobrenome1);
 
 //condicionais
-var hora1 = 9;
+//exemplo 1
+var hora1 = 18;
 if (hora1 >=0 && hora1 <= 12) {
     console.log("Buenos dias");
 }else if (hora1 >12 && hora1<18){
     console.log("Buenas tardes");    
 }else
-    console.log("nuenas noches");
+    console.log("Buenas noches");
+
+//exemplo2
+if (hora1 == 12 || hora1 == 18){
+    console.log("Rush hour")
+};
 
 
 
