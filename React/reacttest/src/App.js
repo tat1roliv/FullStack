@@ -18,3 +18,28 @@ let App = () => {
   return <h1>ttttesting</h1>;
 };
 */
+
+/*
+function App(){
+  let usuario = {
+    nome: 'boni',
+    sobrenome:'boni2'
+  };
+
+  return <>
+  <div>meu nome é {formatarNome(usuario)}</div>
+  </>;
+}
+export default App;
+*/
+
+/*
+function App(){
+  let imagem = "https://www.google.com.br/google.jpg";
+
+  return <>
+  <img src={imagem}/>
+  </>;
+}
+export default App;
+*/
