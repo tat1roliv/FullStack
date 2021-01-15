@@ -52,3 +52,13 @@ p{
 p:empty{
     background-color: red;
 }
+/*4*/
+/*primeira letra e primeira linha caixa alta*/
+.letter1::first-letter{
+    font-size: 25px;
+    font-weight: bold;
+}
+/*5*/
+.line1::first-line{
+    background-color: blueviolet;
+}
