@@ -1,0 +1,19 @@
+body{
+    background-color: #eeeeee;
+}
+input[type=text]{
+    padding: 10px;
+    font-size: 14px;
+}
+.yellow{
+    background-color: yellow;
+    color: white;
+}
+.vermelho{
+    background-color: red;
+    color: white;
+}
+.verde{
+    background-color: green;
+    color: white;
+}
