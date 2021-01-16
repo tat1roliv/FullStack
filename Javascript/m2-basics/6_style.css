@@ -17,3 +17,8 @@ input[type=text]{
     background-color: green;
     color: white;
 }
+#telefone{
+    display: none;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
