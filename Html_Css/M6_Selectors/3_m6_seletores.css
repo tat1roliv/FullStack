@@ -1,5 +1,12 @@
 /*seletor negativo*/
-
 body :not(p){
     background-color: red;
+}
+/*seletor nth*/
+div:nth-child(3){
+    background-color: blue;
+}
+/*seletor nth-last-child*/
+div:nth-last-child(1){
+    background-color: burlywood;
 }
