@@ -1,0 +1,5 @@
+/*seletor negativo*/
+
+body :not(p){
+    background-color: red;
+}
