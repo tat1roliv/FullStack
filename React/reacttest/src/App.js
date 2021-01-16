@@ -1,8 +1,9 @@
 import React from 'react';
+import './App.css';
 
 function Avatar(props) {
   return (
-    <div>
+    <div className="avatar">
       <img src={props.user.url} alt={props.user.name}/>
       <br/>
       <span>{props.user.name}</span>
