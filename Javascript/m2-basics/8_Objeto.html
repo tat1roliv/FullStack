@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objeto OO</title>
+    
+</head>
+<body>
+    <h1 id="titulo">testtinggg</h1>
+
+    <script>
+
+        let carro = {
+            nome: 'fiat',
+            modelo: 'uno',
+            peso: '800kg',
+            ligar:function(){
+                console.log('funcao no objeto');
+            } , 
+            acelerar:function(){
+                console.log('barulhinho bizarro do bonieky');
+            }
+        };
+
+        console.log( carro [ 'nome' ] );
+        console.log( carro.peso );
+
+        carro.ligar();
+        carro.acelerar();
+
+
+    </script>
+</body>
+</html>
