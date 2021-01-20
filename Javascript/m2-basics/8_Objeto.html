@@ -15,19 +15,39 @@
             nome: 'fiat',
             modelo: 'uno',
             peso: '800kg',
+            ligado: false,
             ligar:function(){
-                console.log('funcao no objeto');
+                console.log('funcao no objeto'); 
+                console.log( "modelo: " +this.modelo );
+                this.ligado = true;
             } , 
             acelerar:function(){
-                console.log('barulhinho bizarro do bonieky');
+                if (this.ligado == true){
+                    console.log('barulhinho bizarro do bonieky');
+                }  else {
+                    console.log(this.nome+this.modelo+"não está ligado!");
+                } 
             }
         };
 
         console.log( carro [ 'nome' ] );
         console.log( carro.peso );
 
+       
+
         carro.ligar();
         carro.acelerar();
+
+        let compras = [
+            {item:'pao', tipo:'carboidrato'},
+            {item: 'leite', tipo:'laticinio'},
+            {item: 'cafe' , tipo:'graos'}
+        ];
+        //acessando o objeto
+
+        console.log( compras[0].item );//pao
+        console.log( compras[1].item );//leite
+        console.log( compras[2].item ); //cafe
 
 
     </script>
