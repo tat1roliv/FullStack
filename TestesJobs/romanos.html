@@ -4,42 +4,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de números romanos para decimais</title>
 </head>
+
     <h3>Informe o valor que deseja fazer a conversão</h3>
+ 
     <input type="text" id="numeroInformado">
+
+    <button onclick="conversor(numeroInformado)">Converter</button>
+
 <body>
 
 <script>
 
-    //var numeroTeste1 = x1;
-    //var numeroTeste2 = xc;
+    var nRomano = document.getElementById("numeroInformado").value;
+    
+    function conversor(nRomano){
+        //feature numeroInformado.value = uppercase ;
 
-    var numeroInformado = document.getElementById('numeroInformado')
-    /*
-    let i = 1;
-    let v = 5;
-    let x = 10;
-    let l = 50;
-    let c = 100;
-    let d = 500;
-    let m = 1000;
-    */
+        var nTotal = 0;
 
-    /*
-    function conversao(){
+        const numeros = {
+            'I' : 1,
+            'V' : 5,
+            'X' : 10,
+            'L' : 50,
+            'C' : 100,
+            'D' : 500,
+            'M' : 1000,
+        };
+
+        var letras = nRomano.length;
+
+        for (i=0;i>letras;i++){
+            
+            var letraAtual = nRomano[i];
+            var letraNext = nRomano[i+1];
+           
+
+            if (letraNext && numeros[letraNext] > numeros[letraAtual]){
+                n -= numeros[letraAtual];
+            }else{
+                n += numeros[letraAtual];
+            }
+
+        }
+
+        return nTotal; 
         
-        if(numeroInformado.value ==)
-        var numeroDecimal = //soma;
+        
     }
-    */
-
-    var checando = numeroInformado.value;
-        if(checando.match(/x/)){
-        alert('string encontrada');
-        return match;
-    }
-
-
-
+    conversor(nRomano)
+    alert(nRomano);
+    
 </script>
 
 
