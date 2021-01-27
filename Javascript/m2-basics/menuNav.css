@@ -24,7 +24,7 @@ aside {
     margin-right:10px;
 }
 #menu-area {
-    width:200px;
+    width:0px;/*largura menu*/
     height:100vh;
     background:#ccc;
     overflow-x:hidden;
@@ -43,4 +43,9 @@ aside {
 }
 #menu-area li:hover {
     background:#DDD;
+}
+
+.menu-opened{
+    width: 200px !important;
+
 }
