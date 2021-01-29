@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+</head>
+
+<body>
+    <h1>hola</h1>
+    
+    <script>
+        
+        //for loop
+
+        let acumulado = ""; 
+
+        for ( let i=0 ; i<50 ; i++ ){
+            acumulado = acumulado + i + '</br>';
+        }
+
+        document.getElementById('exemplo').innerHTML = acumulado;
+
+        //array
+        //for loop array
+
+        let carros = [
+            'Fusca',
+            'Brasilia',
+            'Monza',
+            'Chevette'
+        ];
+
+        let html = '<ul>';
+        
+        for(let j in carros){
+            html += '<li>'+ carros[j] +'</li>';
+        }
+
+        //html += '</ul>';    
+        html = hmtl + '</ul>';
+
+        document.getElementById('exemplo2').innerHTML = html;
+
+    </script>
+
+</body>
+</html>
