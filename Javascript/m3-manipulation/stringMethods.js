@@ -58,3 +58,14 @@ console.log(resultado4);
 
 ///////boa pratica
 //substr
+
+//substituindo textos na string
+//replace( (content buscado na String), (new content) )
+
+
+let nome5 = 'jose da silva';
+
+let resultado5 = nome5.replace('da silva', 'pereira');
+
+console.log(nome5);
+console.log(resultado5);
