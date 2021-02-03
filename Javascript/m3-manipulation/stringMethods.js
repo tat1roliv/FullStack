@@ -69,3 +69,45 @@ let resultado5 = nome5.replace('da silva', 'pereira');
 
 console.log(nome5);
 console.log(resultado5);
+
+//toUpperCase;
+//toLowerCase;
+resultado5 = console.log(resultado5.toUpperCase());
+resultado2 = console.log(resultado2.toLowerCase());
+
+
+//trim
+
+
+let nome6 = '     boni bn bi      ';
+
+/*
+let contagemBranco = nome6.length();
+console.log(contagemBranco);
+*/
+
+let resultado6 = nome6.trim();
+//let resultado6 = nome6.trim().length;
+console.log(resultado6);
+
+
+//qual o caracter esta na posicao x
+//charAt
+
+let resultado7 = nome5.charAt(0);
+console.log(resultado7);
+
+/////**********//////
+//split
+
+let calopsita = '1,2,3,4,5,6,7,8,9';
+
+let thatsIt = calopsita.split(' , ');
+
+console.log(thatsIt);
+
+let bolo = 'farinha; acucar, leite, manteiga';
+
+let listaBolo = bolo.split(' ; ');
+
+console.log(listaBolo);
