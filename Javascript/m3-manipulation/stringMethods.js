@@ -7,7 +7,6 @@ console.log(nome.length);
 
 //busca na string
 //var.indexOf('');
-//conteudo da string "armazena como array"
 nome.indexOf('silva');
 
 /*
