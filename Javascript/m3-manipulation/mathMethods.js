@@ -30,6 +30,15 @@ console.log(e);//return 600
 let f = Math.min(7,100,600,20,3,99);
 console.log(f);//return 3
 
+/*
+//min max array
+const numbers = [10, 20, 37, 61, 2, 89, 4];
+const min = Math.min(...numbers);
+const max = Math.max(...numbers);
+     
+console.log(min, max);
+*/
+
 //random
 let g = Math.floor(Math.random() * 100);
 console.log(g);//return aleatorio entre 0 e 1, entao * pelo valor limite desejado e arrendondar para menos
