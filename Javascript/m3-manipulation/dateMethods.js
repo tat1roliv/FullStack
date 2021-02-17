@@ -68,3 +68,25 @@ let dNow = Date.now()
 console.log(dNow); //return timestamp (p/ banco de dados)
 
 ////////////////////////////////////////////////////////////////////////////////////3
+//manipulações
+
+//setFullYear()
+let x = new Date();
+let ress = x.setFullYear(2031);
+console.log(ress);
+
+//setMonth()
+let x2 = new Date();
+let resss = x2.setMonth(11);
+console.log(resss);
+
+//aumentar a quantidade de (dias/horas/min/etc) -> prazo + || -
+let modificarData = new Date();
+
+modificarData.setDate( modificarData.getDate() + 5 );
+let novoValor = modificarData;
+console.log(novoValor);
+
+
+
+
