@@ -14,12 +14,12 @@ let atribuirData = new Date(2020, 0, 1, 12, 30, 12); //01/01/2020 (ano, mes(jan=
 console.log(atribuirData);
 
 //atribuicao toString
-let newD = new Date('2020-01-01 15:42:17');//1 parametro = milisegundo (1970) -> timeistemp (>1970 -> '-') 
+let newD = new Date('2020-01-01 15:42:17');//1 parametro = milisegundo (1970) -> timestamp (>1970 -> '-') 
 console.log( newD.toString() );
 
 ////////////////////////////////////////////////////////////////////////////////////2
 //getFullYear()
-let d2a = new Date();
+let d2 = new Date();
 let res = d2.getFullYear();//2021
 console.log(res);
 
@@ -52,3 +52,19 @@ console.log(resE);
 let d2F = new Date();
 let resF = d2F.getSeconds();
 console.log(resF);
+
+//getMilliseconds(); 
+let d2G = new Date();
+let resG= d2G.getMilliseconds();
+console.log(resG);
+
+//getTime(); 
+let d2H = new Date();
+let resH = d2H.getTime(); //return timestamp
+console.log(resH);
+
+//date.now -> pega a data sem precisar definir uma variavel/objeto
+let dNow = Date.now()
+console.log(dNow); //return timestamp (p/ banco de dados)
+
+////////////////////////////////////////////////////////////////////////////////////3
