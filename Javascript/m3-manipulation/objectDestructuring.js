@@ -30,3 +30,37 @@ let { name, lastName, age} = person;
 
 //declarando de forma a modificar o nome da variavel ou valor da variavel
 //let { social:redes,  age = 0 } = person;
+
+///////////////////////////////////////////////////////////////////////////////////////////2
+
+let pessoa = {
+    nome: 'ana',
+    sobrenome: 'pereira',
+    idade: 18,
+    redesocial: {
+        face: 'pereiraana',
+        insta: {
+            url: '@anainsta',
+            seguidores: 1000
+        }
+    },
+    nomeCompleto: function(){
+        return `${this.nome} ${this.sobrenome}`;
+    }
+};
+/*
+//filtrando 1
+let { face, insta } = pessoa.redesocial;
+console.log(face, insta)
+
+
+//filtrando 2 (selecionando elemento dentro do objeto, dentro do objeto)
+let { nome, idade, redesocial:{ insta } } = pessoa;
+console.log(nome,idade, insta);
+*/
+
+//filtrando 3 objeto (3 camadas)
+//pegando o dado url com saida de nome instagram
+let { nome, idade, redesocial:{insta:{url:instagram}} } = pessoa;
+console.log(nome,idade, instagram);
+
