@@ -64,3 +64,13 @@ console.log(nome,idade, insta);
 let { nome, idade, redesocial:{insta:{url:instagram}} } = pessoa;
 console.log(nome,idade, instagram);
 
+//funcoes x objetos
+/*
+function dadosPadrao(obj){
+    return obj.nome+" "+obj.sobrenome+" "+obj.idade+" "+obj.redesocial.face;
+}
+console.log(dadosPadrao(pessoa));
+*/
+function dadosPadrao({nome, sobrenome, idade = 18, redesocial:{insta:{url:instagram}}}){
+    return `${nome} ${sobrenome} ${idade} Siga em ${instagram} `;
+}
