@@ -1,0 +1,22 @@
+.balloon{
+    background-color: blue;
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.balloon::after{
+    content: "";
+    /*
+    width: 20px;
+    height: 20px;
+    background-color: greenyellow;
+    */
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    border: 20px solid;
+    border-color: greenyellow red green yellow;
+}
