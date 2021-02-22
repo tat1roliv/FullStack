@@ -1,10 +1,8 @@
-//arrow functions (flecha)
+//arrow functions (flecha) -> nao tem .this.!
 function somarOldSchool(x,y) {
     return x + y;
 }
 console.log( somarOldSchool(2,5));
-
-
 
 let somar = function(x,y){
     return x + y;
@@ -25,7 +23,3 @@ console.log( letrasNome ("maria"));
 
 const letrasNomeAF2 = nome => nome.length;
 console.log( letrasNomeAF2('ana'));
-
-
-
-
