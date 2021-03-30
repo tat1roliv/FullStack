@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color:#FF0000;
+    width:200px;
+    height:200px;
+    margin:auto;
+
+    /*transform - aumentar/diminuir; girar; distorcer
+    scale() scaleX() scaleY()*/
+
+    /*transform: scale(1);*/
+
+    /*rotate
+    rotateX() rotateY() rotateZ()*/
+
+    /*transform: rotate(-30deg);*/
+
+    /*skew()
+    skew() skewX() skewY()*/
+    transform: skew(20deg,5deg);
+
+}
