@@ -1,0 +1,28 @@
+.input{
+    width: 400px;
+    height:50px;
+    font-size:1.5rem;
+}
+
+.input::placeholder{
+    color: #ff0000;
+}
+
+/*outras versoes dos navegadores*/
+
+/*webkit blink edge*/
+.input::-webkit-input-placeholder{
+    color: red;
+}
+/*firefox 4 a 18*/
+.input:-moz-placeholder{
+    color: red;
+}
+/*ie 10 e 11*/
+.input::-moz-placeholder{
+    color: red;
+}
+/*edge*/
+.input:-ms-input-placeholder{
+    color: red;
+}
