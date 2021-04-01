@@ -1,0 +1,38 @@
+/*
+- :07 Grid 
+
+*/
+
+.container{
+    display:grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    grid-gap: 10px; 
+    background-color: #ccc;
+    justify-content:center;
+    
+}
+
+.item{
+    background-color:tomato;
+    border-radius: 10px;
+    padding:20px;
+    color: #fff;
+    font-size: 1rem;
+
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.item3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.item5{
+    grid-column: 1/3;
+}
