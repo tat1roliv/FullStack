@@ -12,9 +12,13 @@
     /*grid-template-columns: 1.5fr repeat(3,1fr) 1.5fr;*/
     /* grid-template-columns: repeat(3,1fr 2fr);*/
     /* grid-template-columns: repeat(auto-fill, 200px);*/
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 200px);
     grid-auto-rows: minmax(50px, auto);
-    grid-gap: 10px;    
+    grid-gap: 10px; 
+    background-color: #ccc;
+    justify-content:center;
+    align-items: stretch;
+
 }
 
 .item{
