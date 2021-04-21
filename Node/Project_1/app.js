@@ -1,11 +1,6 @@
 const express = require('express'); /*importing express lib*/
 
-//Routes
-const router = express.Router();
-router.get('/', (req, res) => {
-    res.send('holaquetal reload');
-});
-
+const router = require('./routes/index');/*importing routes*/
 
 //Config
 const app = express(); /*lib for server*/
