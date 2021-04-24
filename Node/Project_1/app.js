@@ -8,7 +8,7 @@ app.use('/', router);
 
 app.use(express.json()); /*req POST = req GET*/
 
-app.engine('mst', mustache() );/*motor*/
+app.engine('mst', mustache( __dirname + '/views/partials', '.mst' ) );/*motor*/
 app.set('view engine', 'mst');
 app.set('views', __dirname + '/views');
 

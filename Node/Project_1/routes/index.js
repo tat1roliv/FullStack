@@ -20,7 +20,7 @@ const express = require('express'); /*importing express lib*/
 
 const router = express.Router();
 router.get('/', (req, res) => {
-    let obj = {
+    let obj = { 
         nome: req.query.nome,
         idade: req.query.idade,
         mostrar: true,

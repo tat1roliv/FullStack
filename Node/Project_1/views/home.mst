@@ -1,7 +1,10 @@
 {{!comments}}
 
+{{> header}}
+
 <h1>hola</h1>
 <p>que tal?</p>
+
 
 {{#mostrar}}
 <p>Nome:{{nome}} - Idade: {{idade}}</p>
