@@ -21,8 +21,15 @@ const express = require('express'); /*importing express lib*/
 const router = express.Router();
 router.get('/', (req, res) => {
     let obj = {
-        'nome': 'boni',
-        'idade': '90'
+        nome: req.query.nome,
+        idade: req.query.idade,
+        mostrar: true,
+        ingredientes: [
+            //{item: 'arroz', qt: '20g'}, 
+            //{item: 'salsa', qt: '100g'}
+        ],
+        interesses:['node', 'js', 'css'],
+        teste: '<strong>strong test</strong>'
     };
     res.render('home', obj );
 });

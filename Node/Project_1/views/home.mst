@@ -1,3 +1,29 @@
+{{!comments}}
+
 <h1>hola</h1>
 <p>que tal?</p>
+
+{{#mostrar}}
 <p>Nome:{{nome}} - Idade: {{idade}}</p>
+{{/mostrar}}
+
+<ul>
+{{#ingredientes}}
+    <li>{{item}} - {{qt}}</li>
+{{/ingredientes}}
+</ul>
+
+<hr/>
+
+<ul>
+{{#interesses}}
+    <li>{{.}}</li>
+{{/interesses}}
+</ul>
+
+<hr/>
+{{{teste}}}
+
+{{^ingredientes}}
+<p>Sem ingredientes na lista</p>
+{{/ingredientes}}
