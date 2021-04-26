@@ -8,3 +8,9 @@ let pessoa = {
         peso: 100
     }
 };
+
+/*
+requisicoes
+PARSE => string Em json 
+STRINGFY => json em string
+*/
