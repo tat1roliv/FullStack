@@ -7,4 +7,4 @@ let pessoa = {
         altura: 2,
         peso: 100
     }
-}
+};
