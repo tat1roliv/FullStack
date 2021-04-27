@@ -46,7 +46,7 @@ let formValidator = {
 
                     case 'min':
                         if(input.value.length < rulesDetails[1]) {
-                            return 'Campo tem que ter pelo menos '+rulesDetails[1]+' caractes';
+                            return 'Minimum '+rulesDetails[1]+'characters';
                         }
                     break;
 
@@ -58,8 +58,6 @@ let formValidator = {
                             }
                         }
                     break;
-
-
                 }
                
             }
