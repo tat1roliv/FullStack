@@ -1,2 +1,2 @@
 # FullStack
-Front && Back - Web Development
+Front End && Back End - Web Development
