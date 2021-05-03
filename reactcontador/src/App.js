@@ -11,8 +11,8 @@ function App() {
 
   return (
     <>
-      <div>{contagem} vezes</div>
-      <button onClick={botaoAction}>Clique para aumentar</button>
+      <div>{contagem} and counting...</div>
+      <button onClick={botaoAction}>Click for add one</button>
     </>
   );
 }
