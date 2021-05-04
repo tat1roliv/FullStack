@@ -10,11 +10,11 @@ const Input = styled.input`
  
 function App() {
 
-  const [ email, setEmail ] = useState('')
-  const [ password, setPassword ] = useState('')
+  const [ email, setEmail ] = useState('');
+  const [ password, setPassword ] = useState('');
 
   const handleEmailInput = (e) => {
-    setEmail(e.target.value); 
+    setEmail(e.target.value); //email recebe a entrada digitada (onChange (evento))
   }
 
   const handlePasswordInput = (e) => {
@@ -28,9 +28,7 @@ function App() {
   return (
     <>
       <Input placeholder="Digite o email @" type="email" value={email} onChange={handleEmailInput}/>
-
       <Input placeholder="Digite a senha" type="password" value={password} onChange={handlePasswordInput}/>
-
       <button onClick={handleButton}>OK</button>
     </>
   );
