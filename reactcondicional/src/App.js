@@ -11,19 +11,18 @@ border:1px solid black;
 
 function App() {
   
-  const [ texto, setTexto ] = useState('');
+  const [ email, setEmail ] = useState('');
   const handleInput = (e) => {
-    setTexto(e.target.value);
+    setEmail(e.target.value);
   };
   
   return (
     <>
-      <Input placeholder="digite: " type="texto" value={texto} onChange={handleInput}/>
-      {texto.length > 0 &&
-      <p>{texto.length} caractere {texto.length != 1 ? 's' : '' }</p> 
+      <Input placeholder="digite: " type="email" value={email} onChange={handleInput}/>
+      {email.length > 0 &&
+      <p>{email.length} caractere{email.length != 1 ? 's' : '' }</p> //condicional p caractere(s) =! -> s, senao -> ''
       }
           
-
     </>
   );
 }
