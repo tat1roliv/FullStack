@@ -1,10 +1,10 @@
-use cadastro;
-create table pessoas(            
-nome varchar(30),
-idade tinyint(3),
-sexo char(1),
-peso float,
-altura float,
-nacionalidade varchar(20)
-);
-describe pessoas;
+USE cadastro;
+CREATE TABLE pessoas(            
+nome VARCHAR(30),
+idade TINYINT(3),
+sexo CHAR(1),
+peso FLOAT,
+altura FLOAT,
+nacionalidade VARCHAR(20)
+)
+DEFAULT CHARSET = utf8;
