@@ -26,10 +26,17 @@ thead {
     color: #000;
     font-size:bold;
 }
-
+/* odd => aplica para os elementos impares*/
 tbody tr:nth-child(odd) {
-    background-color: #e6e6e688;
+    background-color: lightblue;
 }
+
+/* even=> aplica para os elementos pares
+||
+tbody tr:nth-child(2n)
+*/
 tbody tr:nth-child(even) {
-    background-color: #ececec;
+    background-color: salmon;
 }
+
+/* nth-child(3n + 1) => de 3/3 */
