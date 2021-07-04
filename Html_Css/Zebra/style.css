@@ -1,0 +1,35 @@
+body {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 300px;
+    height: 200px;
+}
+
+table {
+    border: 5px solid #000;
+    background-color: pink;
+    text-align: center;
+}
+
+thead {
+    background-color: #FFF;
+    color: #000;
+    font-size:bold;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e6e6e688;
+}
+tbody tr:nth-child(even) {
+    background-color: #ececec;
+}
