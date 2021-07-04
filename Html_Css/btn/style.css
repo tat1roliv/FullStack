@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #29ecfa;
+    box-shadow: 0px 2px 2px #838383;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+a:hover {
+    background-color: #a8f9ff;;
+    box-shadow: 0px 2px 2px #636363;
+}
