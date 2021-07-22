@@ -11,4 +11,11 @@
 .container{
     max-width: 1140px;/*definindo uma largura max + centralizar conteudo*/
     margin: auto;/*definindo uma largura max + centralizar conteudo*/
+    
+}
+
+/*navbar*/
+.nav-item .btn.btn-outline-secondary{
+    margin: 20px 10px;
+    color: #fff;
 }
