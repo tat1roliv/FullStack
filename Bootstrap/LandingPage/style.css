@@ -1,0 +1,14 @@
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400&family=Oswald:wght@300;400;700&display=swap');
+
+/*general*/
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.container{
+    max-width: 1140px;/*definindo uma largura max + centralizar conteudo*/
+    margin: auto;/*definindo uma largura max + centralizar conteudo*/
+}
