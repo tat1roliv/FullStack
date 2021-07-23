@@ -19,3 +19,7 @@
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.mask-custom {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
