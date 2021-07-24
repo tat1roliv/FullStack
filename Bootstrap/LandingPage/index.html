@@ -181,17 +181,24 @@
              </section> 
              <!--bannerform-->
             <section>
-                <div class="banner py-5 mg-5">
+                <div class="banner ">
                     <div style="background-image: url(./img/bg-2.jpg); display:cover; height:500px;" class=" d-flex justify-content-center align-items-center">
                         <div class="overlay text-center rounded">
                             <form action="" method="POST" class="maske">
-                                <div class="form-group mb-2">
-                                    <label for="email" class="text-white">E-mail: </label>
+                                <div class="form-group mb-2 ">
+                                    <label for="email" class="text-white mb-2">E-mail: </label>
                                     <input id="email" type="email" name = "email" placeholder="mail@example.com"class="form-control">
                                 </div>
                                 <div class="form-group mb-2">
-                                    <label for="senha" class="text-white">Senha: </label>
+                                    <label for="senha" class="text-white mb-2">Senha: </label>
                                     <input id="senha" type="password" name = "senha" class="form-control" placeholder="Senha">
+                                </div>
+                                <div class="form-group form-check">
+                                    <div class="checkbox ">
+                                        <label class="form-check-label text-white">
+                                        <input type="checkbox" value="remember-me" class="form-check-input"> Remember me
+                                        </label>
+                                    </div>
                                 </div>
                                 <div class="form-group mt-5 mb-2">
                                     <input type="submit" value="Entrar"class="btn btn-primary">
@@ -201,6 +208,9 @@
                     </div>
                 </div>
             </section> 
+            <footer class="container-fluid text-center py-5  bg-primary">
+                <p class="text-white ">Footer Text</p>
+            </footer>
 
 
 </body>
