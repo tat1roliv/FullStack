@@ -40,3 +40,7 @@
     font-family: 'open sans';
     text-shadow: 1px 1px #000;
   }
+  .overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding:2rem;
+  }
