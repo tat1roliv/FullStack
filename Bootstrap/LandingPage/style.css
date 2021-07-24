@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400&family=Oswald:wght@300;400;700&display=swap');
 
 /*general*/
-body{
+*{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    color: #2c2c2c;
 }
 
 .container{
@@ -24,3 +25,18 @@ body{
     background-color: rgba(0, 0, 0, 0.4);
   }
   */
+
+  .banner{
+      line-height:2rem;
+  }
+  .banner h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000;
+    font-weight: 700;
+    
+  }
+  .banner h3 {
+    font-family: 'open sans';
+    text-shadow: 1px 1px #000;
+  }
