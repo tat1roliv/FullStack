@@ -1,0 +1,12 @@
+.film{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color:#eee;
+    text-align:center;
+}
+
+.film img{
+    width:100%;
+    margin-bottom: 10px;
+}

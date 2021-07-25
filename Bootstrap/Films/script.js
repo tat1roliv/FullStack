@@ -12,7 +12,7 @@ $(function(){
             var html = '';
             
             for(var i in json){
-                html += '<div class="col-md-4"><img src="'+json[i].avatar+'" />'+ json[i].titulo+'</div>';
+                html += '<div class="col-md-4"><div class="film"><img src="'+json[i].avatar+'" />'+ json[i].titulo+'</div></div>';
             }
             $('.filmsContent').html(html);
         }
